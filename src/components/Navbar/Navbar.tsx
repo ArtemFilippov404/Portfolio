@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
 
-import BtnDarkMode from "../BtnDarkMode/BtnDarkMode";
+//import BtnDarkMode from "../BtnDarkMode/BtnDarkMode";
 
 import styles from "./navbar.module.css";
 
@@ -19,7 +19,7 @@ export default function Navbar() {
                         <strong>Filippov Artem</strong>
                     </Link>
                     
-                    <BtnDarkMode />
+                    {/* <BtnDarkMode /> */}
 
                     <ul className={styles.nav_list}>
                         <li className="nav-list__item">
