@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import dynamic from 'next/dynamic';
 
 //components
-import Navbar from '@/components/Navbar/Navbar';
+const Navbar = dynamic(() => 
+  import('@/components/Navbar/Navbar'), {
+      ssr: false,
+  });
+// import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer/Footer';
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
