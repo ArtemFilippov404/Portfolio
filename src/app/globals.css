@@ -213,7 +213,25 @@ html, body {
     margin-top: 0.5em;
 }
 
+.typingText {
+    min-height: 54px;
+}
 
+.typingText::after {
+    content: "|";
+    color: var(--text-color);
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+}
 
 @media (max-width: 620px) {
 
