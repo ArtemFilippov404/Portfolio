@@ -27,11 +27,11 @@ export default function Navbar() {
                                 Главная
                             </Link>
                         </li>
-                        {/* <li className="nav-list__item">
-                            <Link href="/projects" className={`${pathname === '/projects' ? activeLink : normalLink}`}>
-                                Проекты
+                        <li className="nav-list__item">
+                            <Link href="/info" className={`${pathname === '/info' ? activeLink : normalLink}`}>
+                                Инфа
                             </Link>
-                        </li> */}
+                        </li>
                         <li className="nav-list__item">
                             <Link href="/contacts" className={`${pathname === '/contacts' ? activeLink : normalLink}`}>
                                 Контакты

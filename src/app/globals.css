@@ -7,6 +7,7 @@
     --black-border: #26292D;
     --white: #fff;
     --purple: #5C62EC;
+    --green: #00ff00;
 
     --text-color: var(--black);
 
@@ -231,6 +232,17 @@ html, body {
     50% {
       opacity: 0;
     }
+}
+
+.tab {
+    font-family: inherit;
+    color: var(--text-color);
+}
+.Mui-selected.tab {
+    color: var(--accent);
+}
+.MuiTabs-indicator {
+    background-color: var(--accent);
 }
 
 @media (max-width: 620px) {

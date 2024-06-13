@@ -1,0 +1,17 @@
+.h5 {
+    font-family: inherit;
+    font-size: 20px;
+}
+.h6 {
+    font-family: inherit;
+    font-size: 14px;
+    color: gray;
+    display: inline-block;
+    border-bottom: 1px solid #80808047;
+}
+.p {
+    font-family: inherit;
+}
+.p__even {
+    background: #5C62EC14;
+}

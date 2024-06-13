@@ -16,7 +16,7 @@ export default function Contacts() {
                         <p><a href="tel:+79372083881">+7 (937) 208-38-81</a></p>
                     </li>
                     <li className="content-list__item">
-                        <h2 className="title-2">Email</h2>
+                        <h2 className="title-2">E-mail</h2>
                         <p><a href="mailto:ar.filippov404@gmail.com">ar.filippov404@gmail.com</a></p>
                     </li>
                 </ul>
