@@ -236,13 +236,13 @@ html, body {
 
 .tab {
     font-family: inherit;
-    color: var(--text-color);
+    color: var(--text-color) !important;
 }
 .Mui-selected.tab {
-    color: var(--accent);
+    color: var(--accent) !important;
 }
 .MuiTabs-indicator {
-    background-color: var(--accent);
+    background-color: var(--accent) !important;
 }
 
 @media (max-width: 620px) {
